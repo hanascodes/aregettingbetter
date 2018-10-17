@@ -1,0 +1,43 @@
+#1.	What is considered as Python Object?
+#Everything in Python.
+#2.	Name 3 data types for storing numbers? 
+#int, float, complex
+#3.	What is the „string“ data type? 
+#Strings are sequences of character data. In Python, the string type is called 'str'. Example code:
+#fact=("Sotap is a great band.")
+#print(type(fact))
+#Output: 
+#<class 'str'>
+#4. Name 3 types of containers. Built-in containers: #dict, list, set, tuple
+#5. What is mutability? Name some mutable objects.
+#Mutable objects can be changed post-creation, whereas immutable can't.
+#Mutable objects: #list, dict, set, byte array
+#Immutable objects: #int, float, complex, string, tuple, frozen set [note: immutable version of set], bytes
+#6. Print the data type of "a=10" using a built-in Python function.
+#a = 10
+#print(type(a))
+#7. Write the code to compare 2 variables (numbers) about equality.= 10
+#x = 5
+#y = 10
+#if(x==y):
+#    print(x,"is equal to",y)
+#else:
+#    print(x,"isn't equal to",y)
+#8. Write code that prints "Hi there (n) times" for 10 times (be careful with logic errors and noun number!)
+#Option 1:
+#for i in range(1, 11):
+#    print("Hi there",i,"times!")
+#Option 2:
+#for i in range(1, 11):
+#    print("Hi there!")
+#Option 3:
+#print("Hi there 1 time!")
+#for i in range(2,11,):
+#    print("Hi there",i,"times!")
+#9. Write code that prints "Hi" 5 times using only range function and increment by 2.
+#Option 1:
+#for i in range(1, 10, 2):
+#    print("Hi!")
+#10. Declare a list with 3 elements of different types and print the first element. 
+#a=['string',42,False]
+#print(a[0])
